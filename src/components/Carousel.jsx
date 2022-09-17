@@ -22,7 +22,7 @@ function Carousel() {
             videoTitle="Auntman"
             videoDesc="Antman meets his match when the newest coolest superhero kinda steals his thunder a little bit"
             videoImg="auntman_carousel.mp4"
-            videoLink="/skits#auntman"
+            videoLink="/alan-cheng-film/skits#auntman"
           />
         </div>
         <div>
@@ -30,7 +30,7 @@ function Carousel() {
             videoTitle="Stupid American"
             videoDesc="As a child of immigrants, Ashley must decide whether to stick to what her parents want for her or forge a new path for herself"
             videoImg="stupid_carousel.mp4"
-            videoLink="/shorts#stupid-american"
+            videoLink="/alan-cheng-film/shorts#stupid-american"
           />
         </div>
         <div>
@@ -38,7 +38,7 @@ function Carousel() {
             videoTitle="I Love My Dad"
             videoDesc='A parody of popular video series from Genius Lyrics "Verified" where a very normal rapper with very normal feelings towards his father explains the lyrics for his song "I Love My Dad"'
             videoImg="dad_carousel.mp4"
-            videoLink="/skits#i-love-my-dad"
+            videoLink="/alan-cheng-film/skits#i-love-my-dad"
           />
         </div>
         <div>
@@ -46,7 +46,7 @@ function Carousel() {
             videoTitle="Hannibal"
             videoDesc="Just Hannibal's normal daily morning ritual"
             videoImg="hannibal_carousel.mp4"
-            videoLink="/shorts#hannibal"
+            videoLink="/alan-cheng-film/shorts#hannibal"
           />
         </div>
         <div>
@@ -54,7 +54,7 @@ function Carousel() {
             videoTitle="Just Head and Arms Guy"
             videoDesc="Join Just Head and Arms Guy in a relaxing spiritual experience as he guides you through a meditative journey"
             videoImg="jhaag_carousel.mp4"
-            videoLink="/skits#just-head-and-arms-guy"
+            videoLink="/alan-cheng-film/skits#just-head-and-arms-guy"
           />
         </div>
         <div>
@@ -62,7 +62,7 @@ function Carousel() {
             videoTitle="Untitled Fraud Documentary"
             videoDesc="Take a glimpse into the life of a con artist as he shares how he makes an honest living with this one simple trick"
             videoImg="fraud_carousel.mp4"
-            videoLink="/shorts#untitled-fraud-documentary"
+            videoLink="/alan-cheng-film/shorts#untitled-fraud-documentary"
           />
         </div>
       </Slider>
@@ -83,7 +83,7 @@ function CarouselVideo(props) {
       <a href={videoLink}>
         <div>
           <video autoPlay muted loop id="carousel-video" style={slideStyle}>
-            <source src={`./img/carousel_videos/${videoImg}`} type="video/mp4"/>
+            <source src={`./alan-cheng-film/img/carousel_videos/${videoImg}`} type="video/mp4"/>
             Browser does not support embedded videos
           </video>
           {/* <img src={`/img/carousel_videos/${videoImg}`} alt={videoTitle}/> */}
