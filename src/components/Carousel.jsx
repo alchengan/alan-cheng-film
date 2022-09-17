@@ -83,7 +83,7 @@ function CarouselVideo(props) {
       <a href={videoLink}>
         <div>
           <video autoPlay muted loop id="carousel-video" style={slideStyle}>
-            <source src={`/img/carousel_videos/${videoImg}`} type="video/mp4"/>
+            <source src={`./img/carousel_videos/${videoImg}`} type="video/mp4"/>
             Browser does not support embedded videos
           </video>
           {/* <img src={`/img/carousel_videos/${videoImg}`} alt={videoTitle}/> */}
