@@ -13,14 +13,14 @@ import {
 } from "./components";
 
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Navigation />
     <Routes>
-      <Route exact path="/alan-cheng-film/" element={<Home />} />
-      <Route path="/alan-cheng-film/shorts" element={<Shorts />} />
-      <Route path="/alan-cheng-film/skits" element={<Skits />} />
-      <Route path="/alan-cheng-film/extras" element={<Extras />} />
-      <Route path="/alan-cheng-film/contact" element={<Contact />} />
+      <Route exact path="/" element={<Home />} />
+      <Route path="/shorts" element={<Shorts />} />
+      <Route path="/skits" element={<Skits />} />
+      <Route path="/extras" element={<Extras />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
     {/* <Footer /> */}
   </Router>,
