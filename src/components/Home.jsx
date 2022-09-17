@@ -6,7 +6,7 @@ import Carousel from "./Carousel";
 function Home() {
   return (
     <div className="home">
-      <div width="100%" className="container home-container">
+      <div className="container home-container">
         <Carousel className="home-content video-carousel"/>
         <div className="home-content home-intro">
           <div className="row">

@@ -27,6 +27,7 @@ code {
 
 .home-container {
   position: relative;
+  max-width: 90%;
 }
 
 .home-content {
@@ -46,19 +47,22 @@ code {
 
 .carousel-video-info {
   padding-left: 25px;
-  /* background-color: rgba(3, 3, 3, 0.3); */
   background-image: linear-gradient(to right, rgba(3,3,3,0.3), rgba(3,3,3,0), rgba(3,3,3,0));
   color: #fff;
-  /* text-shadow: 2px 2px 2px #111111; */
+  text-shadow: 2px 2px 2px #111111;
 }
 
-.carousel-video-info h2 {
+.carousel-video-info:hover {
+  background-image: linear-gradient(to right, rgba(3,3,3,0.7), rgba(3,3,3,0.3), rgba(3,3,3,0));
+}
+
+/* .carousel-video-info h2 {
   -webkit-text-stroke: .5px #111111;
 }
 
 .carousel-video-info p {
   -webkit-text-stroke: .18px #111111;
-}
+} */
 
 .home-intro-paragraph {
   line-height: 60%;
