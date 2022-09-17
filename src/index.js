@@ -13,7 +13,7 @@ import {
 } from "./components";
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     <Navigation />
     <Routes>
       <Route exact path="/" element={<Home />} />
