@@ -8,7 +8,7 @@ function Home() {
     <div className="home">
       <div className="container home-container">
         <Carousel className="home-content video-carousel"/>
-        <div className="home-content home-intro">
+        <div className="home-content home-intro col-md-8 offset-md-2">
           <div className="row">
             <h1 className="mt-5">hello. my name is alan</h1>
           </div>
