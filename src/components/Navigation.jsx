@@ -1,30 +1,30 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 
 function Navigation() {
   return (
 		<div className="navigation">
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
-          <NavLink className="navbar-brand col-2" to="/">
+          <NavHashLink className="navbar-brand col-2" to="/">
             Alan Cheng
-          </NavLink>
+          </NavHashLink>
           <div className="col-8">
             <ul className="navbar-nav mx-auto justify-content-center">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/shorts">
+                <NavHashLink className="nav-link" to="/shorts">
                   Short Films
-                </NavLink>
+                </NavHashLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/skits">
+                <NavHashLink className="nav-link" to="/skits">
                   Comedy Skits
-                </NavLink>
+                </NavHashLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/extras">
+                <NavHashLink className="nav-link" to="/extras">
                   Extras
-                </NavLink>
+                </NavHashLink>
               </li>
               {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">

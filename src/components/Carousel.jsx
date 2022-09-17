@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 import Slider from "react-slick";
 
 function Carousel() {
@@ -80,7 +81,7 @@ function CarouselVideo(props) {
 
   return (
     <div>
-      <a href={process.env.PUBLIC_URL+videoLink}>
+      <HashLink to={videoLink}>
         <div>
           <video autoPlay muted loop id="carousel-video" style={slideStyle}>
             <source src={`./img/carousel_videos/${videoImg}`} type="video/mp4"/>
@@ -92,7 +93,7 @@ function CarouselVideo(props) {
             <p className="col-6">{videoDesc}</p>
           </div>
         </div>
-      </a>
+      </HashLink>
     </div>
   )
 }
