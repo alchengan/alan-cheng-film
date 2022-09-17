@@ -80,7 +80,7 @@ function CarouselVideo(props) {
 
   return (
     <div>
-      <a href={videoLink}>
+      <a href={process.env.PUBLIC_URL+videoLink}>
         <div>
           <video autoPlay muted loop id="carousel-video" style={slideStyle}>
             <source src={`./img/carousel_videos/${videoImg}`} type="video/mp4"/>
