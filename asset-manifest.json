@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/alan-cheng-film/static/css/main.9516db7f.css",
+    "main.css": "/alan-cheng-film/static/css/main.aea235e2.css",
     "main.js": "/alan-cheng-film/static/js/main.9585d92f.js",
     "index.html": "/alan-cheng-film/index.html",
-    "main.9516db7f.css.map": "/alan-cheng-film/static/css/main.9516db7f.css.map",
+    "main.aea235e2.css.map": "/alan-cheng-film/static/css/main.aea235e2.css.map",
     "main.9585d92f.js.map": "/alan-cheng-film/static/js/main.9585d92f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9516db7f.css",
+    "static/css/main.aea235e2.css",
     "static/js/main.9585d92f.js"
   ]
 }
