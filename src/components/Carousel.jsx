@@ -6,7 +6,7 @@ function Carousel() {
   var settings = {
     className: "center",
     centerMode: true,
-    centerPadding: "180px",
+    centerPadding: "15%",
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
